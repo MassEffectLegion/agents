@@ -1,0 +1,7 @@
+langchain-core>=0.3.78,<2
+langchain-openai>=0.3.35,<2
+psycopg2-binary>=2.9,<3
+paramiko>=3,<6
+pytesseract>=0.3.13
+PyYAML>=6
+requests>=2.32

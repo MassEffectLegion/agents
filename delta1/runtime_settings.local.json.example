@@ -1,0 +1,10 @@
+{
+  "postgres": {
+    "host": "127.0.0.1",
+    "database": "agents",
+    "user": "CHANGE_ME",
+    "password": "CHANGE_ME",
+    "port": 5432,
+    "options": "-c statement_timeout=60000 -c lock_timeout=10000 -c timezone=Europe/Moscow"
+  }
+}

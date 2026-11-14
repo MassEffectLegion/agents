@@ -1,0 +1,23 @@
+{
+  "llama_server_url": "http://127.0.0.1:8080/v1",
+  "llama_api_key": "local",
+  "agent_slot": 0,
+  "model_fallback": "Qwen",
+  "context_window_fallback": 80000,
+  "context_usage_percent": 95,
+  "completion_max_tokens": 8192,
+  "completion_min_tokens": 1024,
+  "context_safety_tokens": 512,
+  "no_tool_response_limit": 2,
+  "restart_delay_seconds": 5,
+  "model_timeout_seconds": 600,
+  "server_timeout_seconds": 10,
+  "settings_refresh_seconds": 30,
+  "tool_output_max_chars": 12000,
+  "file_read_max_chars": 15000,
+  "sql_max_rows": 500,
+  "embedding_url": "http://127.0.0.1:9090",
+  "embedding_model": "bge-m3",
+  "log_level": "INFO",
+  "extra_allowed_dirs": []
+}

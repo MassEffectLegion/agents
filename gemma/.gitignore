@@ -1,0 +1,5 @@
+runtime_settings.local.json
+logs/
+progress/
+__pycache__/
+*.pyc

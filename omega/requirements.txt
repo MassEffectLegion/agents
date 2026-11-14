@@ -1,0 +1,5 @@
+langchain-core==0.3.86
+langchain-openai==0.3.35
+requests>=2.32
+paramiko>=3,<6
+psutil>=5.9

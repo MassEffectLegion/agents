@@ -1,0 +1,46 @@
+{
+  "sqlite_path": "data/omega.sqlite3",
+  "primary_server": "dense",
+  "servers": [
+    {
+      "name": "dense",
+      "enabled": true,
+      "base_url": "http://127.0.0.1:8080/v1",
+      "api_key": "local",
+      "model": "Qwen3.8-27B",
+      "slot": 0,
+      "context_window_fallback": 64000
+    },
+    {
+      "name": "moe",
+      "enabled": true,
+      "base_url": "http://127.0.0.1:8080/v1",
+      "api_key": "local",
+      "model": "Qwen3.6-35B-A3B",
+      "slot": 0,
+      "context_window_fallback": 64000
+    }
+  ],
+  "council_on_cycle_start": true,
+  "council_max_tokens": 2048,
+  "council_timeout_seconds": 120,
+  "model_timeout_seconds": 600,
+  "server_timeout_seconds": 10,
+  "context_usage_percent": 95,
+  "completion_max_tokens": 8192,
+  "completion_min_tokens": 1024,
+  "context_safety_tokens": 512,
+  "no_tool_response_limit": 2,
+  "restart_delay_seconds": 5,
+  "settings_refresh_seconds": 30,
+  "tool_output_max_chars": 12000,
+  "file_read_max_chars": 15000,
+  "sql_max_rows": 500,
+  "script_timeout_max_seconds": 600,
+  "script_default_timeout_seconds": 60,
+  "python_executable": "",
+  "extra_allowed_dirs": [
+    ".."
+  ],
+  "log_level": "INFO"
+}
